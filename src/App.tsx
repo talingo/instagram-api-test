@@ -1,11 +1,12 @@
-
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
 import InstagramFeed from './components/Instagram'
 
 function App() {
 
 
   return (
-    <div className="App">
+    <div>
         <InstagramFeed />
     </div>
   )
